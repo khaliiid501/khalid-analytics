@@ -1,0 +1,32 @@
+{
+  "name": "khalid-analytics",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 4028 -H 127.0.0.1",
+    "build": "next build",
+    "start": "next start -p 4028 -H 127.0.0.1"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-chartjs-2": "^5.2.0",
+    "chart.js": "^4.4.0",
+    "axios": "^1.6.0",
+    "openai": "^4.20.0",
+    "@notionhq/client": "^2.2.14",
+    "recharts": "^2.8.0",
+    "lucide-react": "^0.294.0",
+    "date-fns": "^2.30.0",
+    "tailwindcss": "^3.3.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^5.0.0"
+  }
+}
